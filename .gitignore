@@ -1,0 +1,50 @@
+# Java artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Mac
+.DS_Store
+
+# Generated
+build/
+bin/
+gen/
+
+# Gradle
+.gradle
+
+# local config overrides
+local.properties
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# include Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# Maven
+log/
+target/
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
