@@ -20,3 +20,25 @@ $ java -cp . MyAwesomeWordCounter  foobar-text-file.txt
 24  yadda
 ```
 
+
+### Additional Reading
+
+Some fun computing history can be found in the [article describing the word count solutions][1] provided by computing greats Donald Knuth and Doug McIlroy.
+
+Knuth supplied a detailed and very intricate program that used a "clever, purpose-built data structure for keeping track of the words and frequency counts" and spanned several pages of Pascal code.
+
+McIlroy responded with a simple 6-command shell pipeline, powerful and elegant in its simplicity:
+
+```shell
+tr -cs A-Za-z '\n' |
+tr A-Z a-z |
+sort |
+uniq -c |
+sort -rn |
+sed ${1}q
+```
+
+:-)
+
+[1]: http://www.leancrew.com/all-this/2011/12/more-shell-less-egg/
+
