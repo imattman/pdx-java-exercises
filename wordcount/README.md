@@ -2,7 +2,7 @@
 
 Write a program that that's composed of two (or more) classes, one with the responsibility of tracking word stats, and the other responsible for supplying the source of words.
 
-Try to make the WordStats class flexible for easy reuse by accepting a general word source such as Iterator<String>.
+Try to make the WordStats class flexible for easy reuse by accepting a general word source such as an `Iterator<String>`.
 
 There could be different implementations of string source: from files, from text fetched from a URL, etc., so long as the contract is fulfilled of producing an Iterator<String>.
 
