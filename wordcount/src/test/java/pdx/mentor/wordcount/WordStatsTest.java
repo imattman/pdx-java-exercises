@@ -32,7 +32,7 @@ public class WordStatsTest {
     public void testTotalCount() {
         wordStats.process(simpleWordList.iterator());
         assertEquals("expected different total word count",
-                     simpleWordList.size() + 1,
+                     simpleWordList.size(),
                      wordStats.getTotalWordCount());
     }
 }
