@@ -13,5 +13,7 @@
 
 //include 'common'
 include 'wordcount'
+include 'wordcount-solution'
+
 
 rootProject.name = 'pdx-java-exercises'
