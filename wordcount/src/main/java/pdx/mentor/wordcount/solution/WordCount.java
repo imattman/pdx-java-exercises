@@ -1,4 +1,4 @@
-package pdx.mentor.wordcount;
+package pdx.mentor.wordcount.solution;
 
 import java.util.Comparator;
 

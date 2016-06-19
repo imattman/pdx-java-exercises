@@ -1,8 +1,9 @@
-package pdx.mentor.wordcount;
+package pdx.mentor.wordcount.problem;
 
 
 import org.junit.Before;
 import org.junit.Test;
+import pdx.mentor.wordcount.problem.WordStats;
 
 import java.util.Arrays;
 import java.util.List;

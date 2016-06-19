@@ -1,4 +1,4 @@
-package pdx.mentor.wordcount;
+package pdx.mentor.wordcount.problem;
 
 
 public class Main {
